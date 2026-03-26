@@ -5,115 +5,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/icon/icon/themify-icons/themify-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <script src="./assets/bootstrap/js/bootstrap.js"></script>
+
 </head>
 
 <body>
-    <div id="main">
-        <div id="header">
+    <div id="app">
+        <div class="top">
             <div class="container">
-                <div class="logo ">
-                    <a href=""><img
-                            src="https://bizweb.dktcdn.net/100/546/124/themes/1093332/assets/header_transparent_logo.png?1773230731309 "
-                            alt="Logo EGA SNEAKER"></a>
-                </div>
-                <div class="menu">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#">Trang chủ</a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            sản phẩm
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Đối tượng</a>
-                                                <a href="">sneacker nam</a>
-                                                <a href="">sneacker nữ</a>
-                                                <a href="">sneaker unisex</a>
-                                                <a href="">sneaker trẻ em</a>
-                                                <a href="">sneaker couple</a>
+                <div class="header d-flex align-items-center">
+                    <div class="logo">
+                        <a href="" class="link-logo">
+                            <img src="https://res.cloudinary.com/dnb1p68h9/image/upload/v1774542743/1_vsglkf.png" alt=""
+                                class="img-logo">
+                        </a>
+                    </div>
+                    <div class="navigation--horizontal">
+                        <ul class="navigation-horizontal">
+                            <li class="menu-item"><a href="" class="menu-item__link">Trang chủ</a></li>
+                            <li class="menu-item has-submenu"><a href="" class="menu-item__link">Sản phẩm <i
+                                        class="ti-angle-down"></i></a>
+                                <div class="submenu">
+                                    <div class="">
+                                        <ul class="submenu__list">
+                                            <li class="submenu__col">
+                                                <span class="submenu__item--main">Đối tượng</span>
+                                                <ul>
+                                                    <li class="submenu__item"><a href="">Sneaker Nam</a></li>
+                                                    <li class="submenu__item"><a href="">Sneaker Nữ</a></li>
+                                                    <li class="submenu__item"><a href="">Sneaker Unisex</a></li>
+                                                    <li class="submenu__item"><a href="">Sneaker Trẻ Em</a></li>
+                                                    <li class="submenu__item"><a href="">Sneaker Couple</a></li>
+                                                </ul>
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Thương hiệu </a>
-                                                <a href="">NIKE</a>
-                                                <a href="">ADIDAS</a>
-                                                <a href="">PUMA</a>
-                                                <a href="">CROCS</a>
-                                                <a href="">FITFLOP</a>
-                                            
+                                            <li class="submenu__col">
+                                                <span class="submenu__item--main">Thương hiệu</span>
+                                                <ul>
+                                                    <li class="submenu__item"><a href="">Nike</a></li>
+                                                    <li class="submenu__item"><a href="">ADIDAS</a></li>
+                                                    <li class="submenu__item"><a href="">PUMA</a></li>
+                                                    <li class="submenu__item"><a href="">CROCS</a></li>
+                                                    <li class="submenu__item"><a href="">FITFLOP</a></li>
+                                                </ul>
                                             </li>
-                                            
-                                            <li>
-                                                <hr class="dropdown-divider">
+                                            <li class="submenu__col">
+                                                <span class="submenu__item--main"> Nhu Cầu Sử Dụng </span>
+                                                <ul>
+                                                    <li class="submenu__item"><a href="">Sneaker đi học – đi làm</a>
+                                                    </li>
+                                                    <li class="submenu__item"><a href="">Sneaker chạy bộ</a></li>
+                                                    <li class="submenu__item"><a href="">Sneaker tập gym</a></li>
+                                                    <li class="submenu__item"><a href="">Sneaker chơi thể thao</a></li>
+                                                    <li class="submenu__item"><a href="">Sneaker đi chơi – dạo phố</a>
+                                                    </li>
+                                                </ul>
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Nhu cầu sử dụng</a>
-                                               <a href="">Sneaker đi học-đi làm</a>
-                                               <a href="">Sneaker chạy bộ</a>
-                                               <a href="">Sneaker tập gym</a>
-                                               <a href="">Sneaker chơi thể thao</a>
-                                               <a href="">Sneaker đi chơi-dạo phố</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Phong cách</a>
-                                                <a href="">sneaker cổ thấp (Low-top)</a>
-                                                <a href="">sneaker cổ cao (High-top)</a>
-                                                <a href="">sneaker cổ trung (Mid-top)</a>
-                                                <a href="">sneaker đế dày (Chunky)</a>
-                                                <a href="">sneaker retro/vintage</a>                                            
+                                            <li class="submenu__col">
+                                                <span class="submenu__item--main"> Phong Cách </span>
+                                                <ul>
+                                                    <li class="submenu__item"><a href="">Sneaker cổ thấp (Low-top)</a>
+                                                    </li>
+                                                    <li class="submenu__item"><a href="">Sneaker cổ cao (High-top)</a>
+                                                    </li>
+                                                    <li class="submenu__item"><a href="">Sneaker cổ trung (Mid-top)</a>
+                                                    </li>
+                                                    <li class="submenu__item"><a href="">Sneaker đế dày (Chunky)</a>
+                                                    </li>
+                                                    <li class="submenu__item"><a href="">Sneaker Retro / Vintage</a>
+                                                    </li>
+                                                </ul>
                                             </li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item has-submenu"><a href="" class="menu-item__link">Khuyến mại <i
+                                        class="ti-angle-down"></i></a>
+                                <ul class="submenu submenu-promotion">
+                                    <li class="submenu_item">
+                                        <a href="" class="submenu__link">Deal giá sốc</a>
                                     </li>
+                                    <li class="submenu_item">
+                                        <a href="" class="submenu__link">Sale cuối năm</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
+                                    <li class="submenu_item">
+                                        <a href="" class="submenu__link">Combo Sneaker – Phụ kiện</a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Khuyến mãi
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Deal giá sốc</a></li>
-                                            <li><a class="dropdown-item" href="#">Sale cuối năm </a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Combo sneaker-Phụ kiện</a></li>
-                                            <li><a class="dropdown-item" href="#">Sneaker đồng giá </a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link disabled" href="#" tabindex="-1"
-                                            aria-disabled="true">Hướng dẫn thiết lập</a>
+                                    <li class="submenu_item">
+                                        <a href="" class="submenu__link">Sneaker đồng giá</a>
                                     </li>
                                 </ul>
-                                <form class="d-flex">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
-                            </div>
+                            </li>
+                            <li class="menu-item"><a href="" class="menu-item__link">Blog</a></li>
+                            <li class="menu-item"><a href="" class="menu-item__link">Về chúng tôi</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-icon-wrapper">
+                        <div class="search-logo">
+                            <i class="ti-search ti-style"></i>
                         </div>
-                    </nav>
+                        <div class="user-logo">
+                            <i class="ti-user ti-style"></i>
+                        </div>
+                        <div class="shop-logo">
+                            <i class="ti-bag ti-style"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact">
-                    <div class="phone">phone</div>
-                    <div class="email">email</div>
+                <div class="banner">
+
                 </div>
             </div>
-            <!-- logo -->
         </div>
     </div>
 </body>
