@@ -148,4 +148,99 @@
 .submenu__link:hover {
     text-decoration: none;
 }
+
+.collection {
+  padding: 40px;
+  text-align: center;
+}
+
+.collection h2 span {
+  color: red;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease;
+}
+
+.item {
+  min-width: 200px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+ 
+.flash-sale {
+    background: #2c2c2c;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    height: 140px;
+    object-fit: contain;
+}
+
+.product-card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.voucher {
+    background: red;
+    color: #fff;
+    padding: 4px;
+    font-size: 12px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.countdown {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.col-5-custom {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
  
