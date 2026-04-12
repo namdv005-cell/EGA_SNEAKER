@@ -1,6 +1,7 @@
 import React from 'react'
 
 const header = () => {
+    const totals = [];
   return (
     <>
       
@@ -9,3 +10,4 @@ const header = () => {
 }
 
 export default header
+                                                                                                                   
