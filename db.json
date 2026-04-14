@@ -32,8 +32,18 @@
             {"id": 1, "name": "Sneaker cổ thấp (Low-top)", "link": "/low-top"},
             {"id": 2, "name": "Sneaker cổ cao (High-top)", "link": "/high-top"},
             {"id": 3, "name": "Sneaker cổ trung (Mid-top)", "link": "/mid-top"},
+<<<<<<< HEAD
             {"id": 4, "name": "Sneaker đế dày (Chunky)", "link": "/chunky"},
             {"id": 5, "name": "Sneaker Retro / Vintage", "link": "/vintage"}
+=======
+            {"id": 4, "name": "Sneaker đế dày (Chunky)", "link": "/chunkyy"},
+            {"id": 5, "name": "Sneaker Retro / Vintage", "link": "/vintage"}
+        ],
+        "voucherItem": [
+            {"id": 1, "name": "Deal giá sốc", "link": "/deal-gia-soc"},
+            {"id": 2, "name": "Sale cuối năm)", "link": "/sale-cuoi-nam"},
+            {"id": 5, "name": "Sneaker đồng giá", "link": "/sneaker-dong-gia"}
+>>>>>>> 8fb5bfc (reactjs)
         ]
     }
 }
