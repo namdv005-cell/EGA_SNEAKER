@@ -1,0 +1,39 @@
+{   
+    "menu": {
+        "menuCategories": [
+            {"id": 1, "name": "Trang chủ", "link": "/home"},
+            {"id": 2, "name": "Sản phẩm", "link": "/products"},
+            {"id": 3, "name": "Khuyến mại", "link": "/voucher"},
+            {"id": 4, "name": "Blog", "link": "/blog"},
+            {"id": 5, "name": "Về chúng tôi", "link": "/about"}
+        ],
+        "customerMenu": [
+            {"id": 1, "name": "Sneaker Nam", "link": "/men"},
+            {"id": 2, "name": "Sneaker Nữ", "link": "/girl"},
+            {"id": 3, "name": "Sneaker Unisex", "link": "/unisex"},
+            {"id": 4, "name": "Sneaker Trẻ Em", "link": "/children"},
+            {"id": 5, "name": "Sneaker Couple", "link": "/couple"}
+        ],
+        "trademark": [
+            {"id": 1, "name": "Nike", "link": "/nike"},
+            {"id": 2, "name": "ADIDAS", "link": "/adidas"},
+            {"id": 3, "name": "PUMA", "link": "/puma"},
+            {"id": 4, "name": "CROCS", "link": "/crocs"},
+            {"id": 5, "name": "FITFLOP", "link": "/fitilop"}
+        ],
+        "usageNeeds": [
+            {"id": 1, "name": "Sneaker đi học – đi làm", "link": "/di-hoc-di-lam"},
+            {"id": 2, "name": "Sneaker chạy bộ", "link": "/chay-bo"},
+            {"id": 3, "name": "Sneaker tập gym", "link": "/tap-gym"},
+            {"id": 4, "name": "Sneaker chơi thể thao", "link": "/choi-the-thao"},
+            {"id": 5, "name": "Sneaker đi chơi – dạo phố", "link": "/di-choi-dao-pho"}
+        ],
+        "categoryproducts": [
+            {"id": 1, "name": "Sneaker cổ thấp (Low-top)", "link": "/low-top"},
+            {"id": 2, "name": "Sneaker cổ cao (High-top)", "link": "/high-top"},
+            {"id": 3, "name": "Sneaker cổ trung (Mid-top)", "link": "/mid-top"},
+            {"id": 4, "name": "Sneaker đế dày (Chunky)", "link": "/chunky"},
+            {"id": 5, "name": "Sneaker Retro / Vintage", "link": "/vintage"}
+        ]
+    }
+}
