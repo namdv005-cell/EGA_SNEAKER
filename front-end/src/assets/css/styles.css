@@ -40,7 +40,8 @@
 .menu-item__link:hover,
 .ti-hover:hover {
     text-decoration: none;
-    color: #fff;
+    color: #464646;
+    cursor: pointer;
 }
 
 .header-icon-wrapper {
