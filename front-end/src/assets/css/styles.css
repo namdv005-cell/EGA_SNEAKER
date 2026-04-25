@@ -739,3 +739,51 @@
 .carousel-card {
     margin: 10px 0 10px 0;
 }
+
+ /* ===== Product List ===== */
+ .product-list{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap: 24px;
+
+ }
+ /* ===== Card ===== */
+.product-card{
+    width: 100%;
+}
+ /* ===== IMAGE ===== */
+ .product-img{
+    background-color: #333;
+    padding: 10px;
+ }
+  
+ /* ===== TEXT NHỎ LẠI ===== */
+ .product-info{
+    padding: 10px;
+ }
+ .brand{
+    font-size: 15px;
+    color: #000;
+ }
+ .product-info h1{
+    font-size: 15px !important;
+    font-weight:500;
+    line-height:1.4;
+    height:38px;
+    color: #000;
+ }
+ /* ===== PRINCE ===== */
+ .price-new{
+    font-size:14px;
+    color:#e53935;
+    font-weight:bold;
+ }
+ .price-oid{
+     font-size:14px;
+    color: #fff;
+    font-weight:bold;
+ }
+.btn-featured{
+    margin: auto;
+    align-items: center;
+}
