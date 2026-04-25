@@ -674,3 +674,58 @@
     grid-template-columns:repeat(5,1fr);
     gap:25px;
 }
+
+/* ===== HERO BANNER ===== */
+
+.hero-banner {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* chữ bên trái */
+.hero-content {
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+    color: #fff;
+}
+
+.hero-content .tag {
+    background: rgba(0,0,0,0.6);
+    padding: 8px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* nút mua ngay */
+.hero-btn {
+    position: absolute;
+    right: 60px;
+    bottom: 70px;
+    background: #fff;
+    color: #000;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #000;
+    color: #fff;
+}
