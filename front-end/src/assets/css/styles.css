@@ -203,7 +203,14 @@
     padding: 10px;
     text-align: center;
     position: relative;
+    height: 100%;
     transition: 0.3s;
+    width: 200px;
+}
+
+.flash-sale1{
+    display: flex;
+    margin: 0 !important;
 }
 
 .row { 
@@ -234,7 +241,6 @@
 .voucher {
     background: red;
     color: #fff;
-    padding: 4px;
     font-size: 12px;
     margin-top: 5px;
     border-radius: 4px;
@@ -728,4 +734,8 @@
 .hero-btn:hover {
     background: #000;
     color: #fff;
+}
+
+.carousel-card {
+    margin: 10px 0 10px 0;
 }
