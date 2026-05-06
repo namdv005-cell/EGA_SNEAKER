@@ -787,3 +787,339 @@
     margin: auto;
     align-items: center;
 }
+
+/* =========================
+   MIX & MATCH SECTION
+=========================*/
+
+.mix-match{
+    padding:100px 80px;      /* TO hơn */
+    background:#f7f7f7;
+}
+
+/* HEADER */
+.mix-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:50px;      /* thoáng hơn */
+}
+
+.mix-header h2{
+    font-size:42px;          /* title lớn hơn */
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.mix-social{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    font-size:15px;
+}
+
+.mix-social img{
+    width:36px;
+}
+
+/* GRID */
+.mix-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:35px;                /* khoảng cách card rộng hơn */
+}
+
+/* CARD */
+.mix-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:14px;
+}
+
+.mix-card img{
+    width:100%;
+    height:320px;            /* CARD CAO HƠN -> sang */
+    object-fit:cover;
+    transition:.5s;
+}
+
+/* HOVER */
+.mix-card:hover img{
+    transform:scale(1.1);
+}
+
+/* PLAY ICON */
+.mix-card::after{
+    content:"▶";
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:44px;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+}
+
+.mix-card:hover::after{
+    opacity:1;
+}
+
+/* TEXT */
+.mix-text{
+    text-align:center;
+    margin-top:18px;
+    font-size:16px;
+    color:#333;
+    line-height:1.4;
+}
+
+/* =========================
+   RESPONSIVE
+=========================*/
+
+@media(max-width:1200px){
+    .mix-match{
+        padding:80px 50px;
+    }
+
+    .mix-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+
+@media(max-width:768px){
+    .mix-match{
+        padding:60px 25px;
+    }
+
+    .mix-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:25px;
+    }
+}
+
+@media(max-width:500px){
+    .mix-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+/* ===== SECTION ===== */
+.sports{
+    padding:80px 60px;
+    background:#f5f5f5;
+}
+
+/* TITLE */
+.sports-title{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:50px;
+}
+
+.sports-title span{
+    color:#ff4d4d;
+    border-bottom:3px solid #ff4d4d;
+}
+
+/* GRID */
+.sports-list{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:24px;
+}
+
+/* CARD */
+.sport-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:16px;
+    cursor:pointer;
+}
+
+/* IMAGE */
+.sport-card img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    transition:.6s ease;
+    filter:brightness(.85);
+}
+
+/* TEXT */
+.sport-card h3{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+}
+
+/* OVERLAY */
+.sport-card::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(to top,
+        rgba(0,0,0,.7),
+        transparent);
+    opacity:.6;
+    transition:.5s;
+}
+
+/* SHINE EFFECT */
+.sport-card::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:50%;
+    height:100%;
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.4),
+        transparent
+    );
+    transition:.7s;
+}
+
+/* HOVER EFFECT */
+.sport-card:hover img{
+    transform:scale(1.12) translateY(-10px);
+    filter:brightness(1);
+}
+
+.sport-card:hover::before{
+    opacity:.9;
+}
+
+.sport-card:hover::after{
+    left:120%;
+}
+
+/* ===== BRAND ===== */
+.brand{
+    background:#f3f3f3;
+    overflow:hidden;
+    padding:25px 0;
+}
+
+/* track */
+.brand-track{
+    display:flex;
+    gap:80px;
+    width:max-content;
+    animation:scrollBrand 25s linear infinite;
+}
+
+/* logo */
+.brand-track img{
+    height:35px;
+    object-fit:contain;
+    opacity:.6;
+    transition:.3s;
+}
+
+/* hover logo */
+.brand-track img:hover{
+    opacity:1;
+    transform:scale(1.1);
+}
+
+/* animation */
+@keyframes scrollBrand{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
+
+/* ===== PROMO ===== */
+
+.promo{
+    padding:80px 6%;
+    background:#f7f7f7;
+}
+
+/* title */
+.promo-title{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:50px;
+}
+
+.promo-title span{
+    color:#ff4d4d;
+    border-bottom:3px solid #ff4d4d;
+}
+
+/* list */
+.promo-list{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:25px;
+}
+
+/* card */
+.promo-card{
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    transition:.4s;
+    cursor:pointer;
+}
+
+.promo-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+/* hover effect */
+.promo-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+/* text */
+.promo-date{
+    color:#888;
+    font-size:13px;
+    padding:12px 15px 0;
+}
+
+.promo-card h3{
+    font-size:16px;
+    padding:8px 15px;
+}
+
+.promo-desc{
+    font-size:14px;
+    color:#666;
+    padding:0 15px 20px;
+    line-height:1.5;
+}
+
+/* button */
+.promo-btn{
+    text-align:center;
+    margin-top:45px;
+}
+
+.promo-btn a{
+    background:#111;
+    color:#fff;
+    padding:14px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.promo-btn a:hover{
+    background:#ff4d4d;
+}
